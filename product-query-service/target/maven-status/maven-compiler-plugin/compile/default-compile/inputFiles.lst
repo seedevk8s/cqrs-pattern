@@ -1,0 +1,6 @@
+/home/user1/cqrs-pattern/product-query-service/src/main/java/co/kr/ideacube/controller/ProductQueryController.java
+/home/user1/cqrs-pattern/product-query-service/src/main/java/co/kr/ideacube/ProductQueryServiceApplication.java
+/home/user1/cqrs-pattern/product-query-service/src/main/java/co/kr/ideacube/entity/Product.java
+/home/user1/cqrs-pattern/product-query-service/src/main/java/co/kr/ideacube/service/ProductQueryService.java
+/home/user1/cqrs-pattern/product-query-service/src/main/java/co/kr/ideacube/repository/ProductRepository.java
+/home/user1/cqrs-pattern/product-query-service/src/main/java/co/kr/ideacube/dto/ProductEvent.java

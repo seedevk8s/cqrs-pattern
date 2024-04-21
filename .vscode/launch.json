@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProductCommandServiceApplication",
+            "request": "launch",
+            "mainClass": "co.kr.ideacube.ProductCommandServiceApplication",
+            "projectName": "product-command-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductQueryServiceApplication<product-query-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "co.kr.ideacube.ProductQueryServiceApplication",
+            "projectName": "product-query-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=34781 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=product-query-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductCommandServiceApplication<product-command-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.javatechie.ProductCommandServiceApplication",
+            "projectName": "product-command-service",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+co/kr/ideacube/entity/Product.class
+co/kr/ideacube/dto/ProductEvent.class
+co/kr/ideacube/controller/ProductQueryController.class
+co/kr/ideacube/repository/ProductRepository.class
+co/kr/ideacube/ProductQueryServiceApplication.class
+co/kr/ideacube/service/ProductQueryService.class
